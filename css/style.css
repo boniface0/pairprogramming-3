@@ -1,0 +1,20 @@
+.{
+  padding: 0px;
+  margin: 0px;
+}
+#header{
+height:10vh;
+background-color:#F8F9F9;
+}
+#header-img{
+  text-align: left;
+}
+#nav-bar{
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  width:100%;
+  display:flex;
+  align-item:center;
+}

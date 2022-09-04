@@ -8,8 +8,53 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+<!--
     “Hello World, we are software developers!”
     <script  src="js/index.js"></script>
+
+  -->
+  <style>
+        #nav-bar{
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  right:0px;
+  width:100%;
+  display:flex;
+  align-item:center;
+}
+ @media only screen and (max-width:780px){
+   #navbar{
+     display:block;
+   }
+ }
+      </style>
+  <header class="" id="header">
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img">
+    <nav id="nav-bar">
+        <a href="#features" class="nav-link">features</a>
+        <a href="#howitworks" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">pricing</a>
+    </nav>
+  </header>
+
+
+  <div class="" id="features">
+    <form  action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+         <input type="email" name="email" value="" placeholder="enter your email" id="email">
+         <input type="submit" name="" value="submit" id="submit">
+    </form>
+  </div>
+
+  <div class="" id="howitworks">
+   <video  src="https://youtu.be/y8Yv4pnO7qc" type height="200px" width="200px" controls id="video" type="video/mp4">
+
+   </video>
+  </div>
+
+  <div class="" id="pricing">
+
+  </div>
+
   </body>
 </html>
